@@ -19,6 +19,7 @@ on:
 jobs:
   run_cbmc_proofs:
     runs-on: ubuntu-20.04
+    environment: proofci
     name: run_cbmc_proofs
     permissions:
       contents: read
