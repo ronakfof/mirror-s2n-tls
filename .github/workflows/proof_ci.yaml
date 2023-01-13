@@ -5,8 +5,7 @@ on:
   push:
     branches-ignore:
       - gh-pages
-  pull_request_target:
-    types: [opened, synchronize, reopened]
+  pull_request:
 # USAGE
 #
 # If you need to use different versions for tools like CBMC, modify this file:
